@@ -1,0 +1,42 @@
+/**
+ * Side project of game Tic-Tac-Toe
+ * @author C.M.H
+ * @author 
+ * @version 0.1
+ */
+package game;
+
+import java.util.Scanner;
+
+public class gamePlayer {
+
+	public static void main(String[] args) {
+		TTT game = new TTT();
+		Scanner in = new Scanner(System.in);
+		boolean continueGame = true;
+		System.out.println("********************************************");
+		System.out.println("**************TIC - TAC - TOE***************");
+		System.out.println("********************************************");
+		System.out.println("");
+		game.printBoard();
+		System.out.println("");
+		while (continueGame) {
+			System.out.println("Select a row");
+			int row = in.nextInt();
+			System.out.println("Select a column");
+			int col = in.nextInt();
+			game.playerMove(row, col);
+			game.printBoard();
+			game.determineWinner();
+			if (game.determineWinner()) {
+				System.out.println("You win!");
+				continueGame = false;
+				in.close();
+			}
+			if (game.boardDraw()) {
+				continueGame = false;
+				in.close();
+			}
+		}
+	}
+}
