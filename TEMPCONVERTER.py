@@ -125,7 +125,7 @@ b9.grid(row=5, column=1)
 b10 = Button(window, text="Rankine to Fahrenheit", width=17, bg = 'magenta', command=ran_to_far_command)
 b10.grid(row=6, column=1)
 
-b11 = Button(window, text="Rankine to Celsius", width=17, bg = 'magenta', command=ran_to_kel_command)
+b11 = Button(window, text="Rankine to Celsius", width=17, bg = 'magenta', command=ran_to_cel_command)
 b11.grid(row=7, column=1)
 
 b12 = Button(window, text="Rankine to Kelvin", width=17, bg = 'magenta', command=ran_to_kel_command)
