@@ -2,7 +2,7 @@
 #COPYRIGHT 2020 COWEN HAMES
 from tkinter import *
 
-#Program to convert temperatures between Fahrenheit, Celsius and Kelvin.
+#Program to convert temperatures between Fahrenheit, Celsius, Kelvin and Rankine.
 
 #COMMANDS#
 
