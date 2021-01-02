@@ -1,36 +1,4 @@
-Skip to content
-Search or jump to…
-
-Pulls
-Issues
-Marketplace
-Explore
- 
-@Greens-Theorem 
-Greens-Theorem
-/
-Green-Pastures
-1
-2
-0
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-More
-Green-Pastures/TicTacToe
-@Greens-Theorem
-Greens-Theorem Create TicTacToe
-Latest commit fec4dd2 on Apr 5, 2020
- History
- 1 contributor
-149 lines (114 sloc)  2.68 KB
-  
-/**
+ /**
  * Side project of game Tic-Tac-Toe
  * @author C.M.H
  * @author E.T.C.
@@ -179,15 +147,3 @@ public class TTT {
 		}
 	}
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
