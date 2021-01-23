@@ -2,7 +2,7 @@
 # AUTHOR EVAN CUNNINGHAM (Frontend)
 # 1/22/21
 # PROJECT 2021. This project creates a database and a single table in MySQL, then uses Python to pass the database information over to HTML to display the cheat codes for The Sims 3.
-# FullStack Dev Project #1 (MySQL, Python, JS, HTML, CSS)
+# FullStack Dev Project #1 (MySQL, Python, Django, HTML, CSS)
 
 import mysql.connector
 import pandas as pd
