@@ -10,35 +10,32 @@ from pandas import DataFrame
 
 # Create the database
 
-
 def create_database():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Cyclone1994")
+        password="password")
     cursor = mydb.cursor()
     cursor.execute("CREATE DATABASE The_Sims_3_Cheats")
 
 # create the table
 
-
 def create_The_Sims_3_Table():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Cyclone1994",
+        password="password",
         database="Vid_Game_Cheat_DB")
     cursor = mydb.cursor()
     cursor.execute("CREATE TABLE The_Sims_3 (id INT AUTO_INCREMENT PRIMARY KEY, Title VARCHAR(50), Release_Year INT, Platform VARCHAR(50), Cheat_Code VARCHAR(100), Cheat_Code_Description VARCHAR(100))")
 
 # populate the table
 
-
 def populate_The_Sims_3_Table():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Cyclone1994",
+        password="password",
         database="Vid_Game_Cheat_DB")
     cursor = mydb.cursor()
     cheat_data = [  (1, 'The Sims 3', 2009, 'PC', 'CNTRL + SHFT + C', 'Open Cheat Console'), 
@@ -69,12 +66,12 @@ def populate_The_Sims_3_Table():
         'INSERT IGNORE into The_Sims_3 VALUES(%s, %s, %s, %s, %s, %s)', cheat_data)
     mydb.commit()
 
-#test table values
+#print the tables data into a Pandas DataFrame to be sent to the HTML code
 def print_sql_data_as_Pandas_DF():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Cyclone1994",
+        password="password",
         database="Vid_Game_Cheat_DB")
     cursor = mydb.cursor()
     query = 'SELECT * FROM The_Sims_3'
@@ -87,7 +84,7 @@ def clear_table():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Cyclone1994",
+        password="password",
         database="Vid_Game_Cheat_DB")
     cursor = mydb.cursor()
     cursor.execute('DROP TABLE The_Sims_3')
@@ -96,14 +93,11 @@ def clear_table():
     
 # run main
 
-
 def main():
-    # create_database()
-    # create_The_Sims_3_Table()
-    # populate_The_Sims_3_Table()
-    # print_SQL_data_as_Pandas_DF()
+    create_database()
+    create_The_Sims_3_Table()
+    populate_The_Sims_3_Table()
     print_sql_data_as_Pandas_DF()
     
-
 if __name__ == '__main__':
     main()
