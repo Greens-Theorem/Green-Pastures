@@ -1,7 +1,5 @@
-#Author Cowen M. Hames | April 2021
+#Author Cowen M. Hames | April - May 2021
 #Periodic Table of the Elements Project: Elements, Facts, Symbols and Atomic Numbers
-#This project will incoporate information about the elements into a graphical user interface for quick, easy access to an elements data
-#It will also compare elemental radioactivity
 
 #library imports
 
@@ -68,19 +66,19 @@ element_Group = {'Hydrogen' :1, 'Helium' : 18, 'Lithium' : 1, 'Beryllium' : 2, '
                   'Lawrencium' : 18, 'Rutherfordium' : 4, 'Dubnium' : 5, 'Seaborgium' : 6, 'Bohrium' : 7, 'Hassium': 8, 'Meitnerium' : 9, 'Darmstadtium' : 10,
                   'Roertgenium' : 11, 'Copemicium' : 12, 'Nihonium' : 13, 'Flerovium' : 14, 'Moscovium' : 15, 'Livermorium' : 16, 'Tennessine' : 17, 'Oganesson' : 18}
 
-element_Period = {'Hydrogen' :1, 'Helium' : 'He', 'Lithium' : 'Li', 'Beryllium' : 'Be', 'Boron' : 'B', 'Carbon' : 'C', 'Nitrogen' : 'N', 'Oxygen' : 'O', 'Fluorine' : 'F', 'Neon' : 'Ne',
-                  'Sodium' : 'Na', 'Magnesium' : 'Mg', 'Aluminium' : 'Al', 'Silicon': 'Si', 'Phosphorus' : 'P', 'Sulfur' : 'S', 'Chlorine' : 'Cl', 'Argon' : 'Ar', 'Potassium' : 'K', 
-                  'Calcium' : 'Ca', 'Scandium' : 'Sc', 'Titanium' : 'Ti', 'Vanadium' : 'V', 'Chromium' : 'Cr', 'Manganese' : 'Mn', 'Iron' : 'Fe', 'Cobalt' : 'Co', 'Nickel' : 'Ni', 
-                  'Copper' : 'Cu', 'Zinc' : 'Zn', 'Gallium' : 'Ga', 'Germanium' : 'Ge', 'Arsenic' : 'As', 'Selnium' : 'Se', 'Bromine' : 'Br', 'Krypton' : 'Kr', 'Rubidium' : 'Rb',
-                  'Strontium' : 'Sr', 'Yttrium' : 'Y', 'Zirconium' : 'Zr', 'Niobium' : 'Nb', 'Molybdenum' : 'Mo', 'Technetium' : 'Tc', 'Ruthenium' : 'Ru', 'Rhodium' : 'Rh', 'Palladium' : 'Pd',
-                  'Silver' : 'Ag', 'Cadmium' : 'Cd', 'Indium' : 'In', 'Tin' : 'Sn', 'Antimony' : 'Sb', 'Tellurium' : 'Te', 'Iodine' : 'I', 'Xenon' : 'Xe', 'Caesium' : 'Cs', 'Barium' : 'Ba',
-                  'Lanthanum' : 'La', 'Cerium' : 'Ce', 'Praseodymium': 'Pr', 'Neodymium' : 'Nd', 'Promethium' : 'Pm', 'Samarium' : 'Sm', 'Europium' : 'Eu', 'Gadolinium' : 'Gd', 'Terbium' : 'Tb',
-                  'Dysprosium' : 'Dy', 'Holmium' : 'Ho', 'Erbium' : 'Er', 'Thulium' : 'Tm', 'Ytterbium' : 'Yb', 'Lutetium' : 'Lu', 'Hafnium' : 'Hf', 'Tantalum' : 'Ta', 'Tungsten' : 'W',
-                  'Rhenium' : 'Re', 'Osmium' : 'Os', 'Iridium' : 'Ir', 'Platinum' : 'Pt', 'Gold' : 'Au', 'Mercury' : 'Hg', 'Thallium' : 'Tl', 'Lead' : 'Pb', 'Bismuth' : 'Bi', 'Polonium' : 'Po',
-                  'Astatine' : 'At', 'Radon' : 'Rn', 'Francium' : 'Fr', 'Radium' : 'Ra', 'Actinium' : 'Ac', 'Thorium' : 'Th', 'Protactinium' : 'Pa', 'Uranium' : 'U', 'Neptunium' : 'Np',
-                  'Plutonium' : 'Pu', 'Americium' : 'Am', 'Curium' : 'Cm', 'Berkelium' : 'Bk', 'Califomium' : 'Cf', 'Einsteinium' : 'Es', 'Fermium' : 'Fm', 'Mendelevium' : 'Md', 'Nobelium' : 'No',
-                  'Lawrencium' : 'Lr', 'Rutherfordium' : 'Rf', 'Dubnium' : 'Db', 'Seaborgium' : 'Sg', 'Bohrium' : 'Bh', 'Hassium': 'Hs', 'Meitnerium' : 'Mt', 'Darmstadtium' : 'Ds',
-                  'Roertgenium' : 'Rg', 'Copemicium' : 'Cn', 'Nihonium' : 'Nh', 'Flerovium' : 'Fl', 'Moscovium' : 'Mc', 'Livermorium' : 'Lv', 'Tennessine' : 'Ts', 'Oganesson' : 'Og'}
+element_Period = {'Hydrogen' :1, 'Helium' : 1, 'Lithium' : 2, 'Beryllium' : 2, 'Boron' : 2, 'Carbon' : 2, 'Nitrogen' : 2, 'Oxygen' : 2, 'Fluorine' : 2, 'Neon' : 2,
+                  'Sodium' : 3, 'Magnesium' : 3, 'Aluminium' : 3, 'Silicon': 3, 'Phosphorus' : 3, 'Sulfur' : 3, 'Chlorine' : 3, 'Argon' : 3, 'Potassium' : 4, 
+                  'Calcium' : 4, 'Scandium' : 4, 'Titanium' : 4, 'Vanadium' : 4, 'Chromium' : 4, 'Manganese' : 4, 'Iron' : 4, 'Cobalt' : 4, 'Nickel' : 4, 
+                  'Copper' : 4, 'Zinc' : 4, 'Gallium' : 4, 'Germanium' : 4, 'Arsenic' : 4, 'Selnium' : 4, 'Bromine' : 4, 'Krypton' : 4, 'Rubidium' : 5,
+                  'Strontium' : 5, 'Yttrium' : 5, 'Zirconium' : 5, 'Niobium' : 5, 'Molybdenum' : 5, 'Technetium' : 5, 'Ruthenium' : 5, 'Rhodium' : 5, 'Palladium' : 5,
+                  'Silver' : 5, 'Cadmium' : 5, 'Indium' : 5, 'Tin' : 5, 'Antimony' : 5, 'Tellurium' : 5, 'Iodine' : 5, 'Xenon' : 5, 'Caesium' : 6, 'Barium' : 6,
+                  'Lanthanum' : 6, 'Cerium' : 6, 'Praseodymium': 6, 'Neodymium' : 6, 'Promethium' : 6, 'Samarium' : 6, 'Europium' : 6, 'Gadolinium' : 6, 'Terbium' : 6,
+                  'Dysprosium' : 6, 'Holmium' : 6, 'Erbium' : 6, 'Thulium' : 6, 'Ytterbium' : 6, 'Lutetium' : 6, 'Hafnium' : 6, 'Tantalum' : 6, 'Tungsten' : 6,
+                  'Rhenium' : 6, 'Osmium' : 6, 'Iridium' : 6, 'Platinum' : 6, 'Gold' : 6, 'Mercury' : 6, 'Thallium' : 6, 'Lead' : 6, 'Bismuth' : 6, 'Polonium' : 6,
+                  'Astatine' : 6, 'Radon' : 6, 'Francium' : 7, 'Radium' :  7, 'Actinium' :  7, 'Thorium' :  7, 'Protactinium' :  7, 'Uranium' :  7, 'Neptunium' :  7,
+                  'Plutonium' :  7, 'Americium' :  7, 'Curium' :  7, 'Berkelium' :  7, 'Califomium' :  7, 'Einsteinium' :  7, 'Fermium' :  7, 'Mendelevium' :  7, 'Nobelium' :  7,
+                  'Lawrencium' :  7, 'Rutherfordium' :  7, 'Dubnium' :  7, 'Seaborgium' :  7, 'Bohrium' :  7, 'Hassium':  7, 'Meitnerium' :  7, 'Darmstadtium' :  7,
+                  'Roertgenium' :  7, 'Copemicium' :  7, 'Nihonium' :  7, 'Flerovium' :  7, 'Moscovium' :  7, 'Livermorium' :  7, 'Tennessine' :  7, 'Oganesson' :  7}
 
 
 element_Atomic_Number = dict(zip(elements,range(len(elements))))
@@ -119,7 +117,7 @@ def get_Chemical_Properties():
 #method to show a graph comparing all 118 elements by their radiation levels
 
 def get_Radiation_Comparison():
-    x = [] * len(elements)
+    x = [i for i in range(1,119)]
     y = ['low'] * 118
     y[42] = 'high'
     y[60] = 'very high'
@@ -161,10 +159,10 @@ def get_Radiation_Comparison():
     y[117] = 'critically high'
 
     plt.bar(x,y,color='aqua')
-    plt.xlabel('Radioactivity')
-    plt.ylabel('Atomic Number')
+    plt.xlabel('Atomic Number')
+    plt.ylabel('Radioactivity')
     plt.title('Chemical Element Radioactivity')
-    plt.xticks(x,x)
+    plt.xticks(x)
     plt.show()
 
 def clear():
