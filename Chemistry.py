@@ -38,19 +38,21 @@ element_Symbol = {'Hydrogen' :'H', 'Helium' : 'He', 'Lithium' : 'Li', 'Beryllium
                   'Roertgenium' : 'Rg', 'Copemicium' : 'Cn', 'Nihonium' : 'Nh', 'Flerovium' : 'Fl', 'Moscovium' : 'Mc', 'Livermorium' : 'Lv', 'Tennessine' : 'Ts', 'Oganesson' : 'Og'
                    }
                    
-element_Weight = {'Hydrogen' : 1.008, 'Helium' : 'He', 'Lithium' : 'Li', 'Beryllium' : 'Be', 'Boron' : 'B', 'Carbon' : 'C', 'Nitrogen' : 'N', 'Oxygen' : 'O', 'Fluorine' : 'F', 'Neon' : 'Ne',
-                  'Sodium' : 'Na', 'Magnesium' : 'Mg', 'Aluminium' : 'Al', 'Silicon': 'Si', 'Phosphorus' : 'P', 'Sulfur' : 'S', 'Chlorine' : 'Cl', 'Argon' : 'Ar', 'Potassium' : 'K', 
-                  'Calcium' : 'Ca', 'Scandium' : 'Sc', 'Titanium' : 'Ti', 'Vanadium' : 'V', 'Chromium' : 'Cr', 'Manganese' : 'Mn', 'Iron' : 'Fe', 'Cobalt' : 'Co', 'Nickel' : 'Ni', 
-                  'Copper' : 'Cu', 'Zinc' : 'Zn', 'Gallium' : 'Ga', 'Germanium' : 'Ge', 'Arsenic' : 'As', 'Selnium' : 'Se', 'Bromine' : 'Br', 'Krypton' : 'Kr', 'Rubidium' : 'Rb',
-                  'Strontium' : 'Sr', 'Yttrium' : 'Y', 'Zirconium' : 'Zr', 'Niobium' : 'Nb', 'Molybdenum' : 'Mo', 'Technetium' : 'Tc', 'Ruthenium' : 'Ru', 'Rhodium' : 'Rh', 'Palladium' : 'Pd',
-                  'Silver' : 'Ag', 'Cadmium' : 'Cd', 'Indium' : 'In', 'Tin' : 'Sn', 'Antimony' : 'Sb', 'Tellurium' : 'Te', 'Iodine' : 'I', 'Xenon' : 'Xe', 'Caesium' : 'Cs', 'Barium' : 'Ba',
-                  'Lanthanum' : 'La', 'Cerium' : 'Ce', 'Praseodymium': 'Pr', 'Neodymium' : 'Nd', 'Promethium' : 'Pm', 'Samarium' : 'Sm', 'Europium' : 'Eu', 'Gadolinium' : 'Gd', 'Terbium' : 'Tb',
-                  'Dysprosium' : 'Dy', 'Holmium' : 'Ho', 'Erbium' : 'Er', 'Thulium' : 'Tm', 'Ytterbium' : 'Yb', 'Lutetium' : 'Lu', 'Hafnium' : 'Hf', 'Tantalum' : 'Ta', 'Tungsten' : 'W',
-                  'Rhenium' : 'Re', 'Osmium' : 'Os', 'Iridium' : 'Ir', 'Platinum' : 'Pt', 'Gold' : 'Au', 'Mercury' : 'Hg', 'Thallium' : 'Tl', 'Lead' : 'Pb', 'Bismuth' : 'Bi', 'Polonium' : 'Po',
-                  'Astatine' : 'At', 'Radon' : 'Rn', 'Francium' : 'Fr', 'Radium' : 'Ra', 'Actinium' : 'Ac', 'Thorium' : 'Th', 'Protactinium' : 'Pa', 'Uranium' : 'U', 'Neptunium' : 'Np',
-                  'Plutonium' : 'Pu', 'Americium' : 'Am', 'Curium' : 'Cm', 'Berkelium' : 'Bk', 'Califomium' : 'Cf', 'Einsteinium' : 'Es', 'Fermium' : 'Fm', 'Mendelevium' : 'Md', 'Nobelium' : 'No',
-                  'Lawrencium' : 'Lr', 'Rutherfordium' : 'Rf', 'Dubnium' : 'Db', 'Seaborgium' : 'Sg', 'Bohrium' : 'Bh', 'Hassium': 'Hs', 'Meitnerium' : 'Mt', 'Darmstadtium' : 'Ds',
-                  'Roertgenium' : 'Rg', 'Copemicium' : 'Cn', 'Nihonium' : 'Nh', 'Flerovium' : 'Fl', 'Moscovium' : 'Mc', 'Livermorium' : 'Lv', 'Tennessine' : 'Ts', 'Oganesson' : 'Og'}
+element_Weight = {'Hydrogen' : 1.008, 'Helium' : 4.0026, 'Lithium' : 6.94, 'Beryllium' : 9.0122, 'Boron' : 10.81, 'Carbon' : 12.011, 'Nitrogen' : 14.007, 'Oxygen' : 15.999, 'Fluorine' : 18.998,
+                  'Neon' : 20.180, 'Sodium' : 22.990, 'Magnesium' : 24.305, 'Aluminium' : 26.982, 'Silicon' : 28.085, 'Phosphorus' : 30.974, 'Sulfur' : 32.06, 'Chlorine' : 35.45, 'Argon' : 39.948,
+                  'Potassium' : 39.098, 'Calcium' : 40.078, 'Scandium' : 44.956, 'Titanium' : 47.867, 'Vanadium' : 50.942, 'Chromium' : 51.996, 'Manganese' : 54.938, 'Iron' : 55.845, 
+                  'Cobalt' : 58.933, 'Nickel' : 58.693, 'Copper' : 63.546, 'Zinc' : 65.38, 'Gallium' : 69.723, 'Germanium' : 72.630, 'Arsenic' : 74.922, 'Selnium' : 78.971, 'Bromine' : 79.904,
+                  'Krypton' : 83.798, 'Rubidium' : 85.468, 'Strontium' : 87.62, 'Yttrium' : 88.906, 'Zirconium' : 91.244, 'Niobium' : 92.906, 'Molybdenum' : 95.95, 'Technetium' : '(98)', 
+                  'Ruthenium' : 101.07, 'Rhodium' : 102.91, 'Palladium' : 106.42, 'Silver' : 107.87, 'Cadmium' : 112.41, 'Indium' : 114.82, 'Tin' : 118.71, 'Antimony' : 121.76, 
+                  'Tellurium' : 127.60, 'Iodine' : 126.90, 'Xenon' : 131.29, 'Caesium' : 132.91, 'Barium' : 137.33, 'Lanthanum' : 138.91, 'Cerium' : 140.12, 'Praseodymium' : 140.91, 
+                  'Neodymium' : 144.24, 'Promethium' : 145, 'Samarium' : 150.36, 'Europium' : 151.96, 'Gadolinium' : 157.25, 'Terbium' : 158.93, 'Dysprosium' : 162.50, 'Holmium' : 164.93, 
+                  'Erbium' : 167.26, 'Thulium' : 168.93, 'Ytterbium' : 173.05, 'Lutetium' : 174.97, 'Hafnium' : 178.49, 'Tantalum' : 180.95, 'Tungsten' : 183.84, 'Rhenium' : 186.21, 
+                  'Osmium' : 190.23, 'Iridium' : 192.22, 'Platinum' : 195.08, 'Gold' : 196.97, 'Mercury' : 200.59, 'Thallium' : 204.38, 'Lead' : 207.2, 'Bismuth' : 208.98, 'Polonium' : '(209)',
+                  'Astatine' : '(210)', 'Radon' : '(222)', 'Francium' : '(223)', 'Radium' : '(226)', 'Actinium' : '(227)', 'Thorium' : '(232.04)', 'Protactinium' : '(231.04)', 'Uranium' : '(238.03)', 
+                  'Neptunium' : '(237)', 'Plutonium' : '(244)', 'Americium' : '(243)', 'Curium' : '(247)', 'Berkelium' : '(247)', 'Califomium' : '(251)', 'Einsteinium' : '(252)', 'Fermium' : '(257)', 
+                  'Mendelevium' : '(258)', 'Nobelium' : '(259)', 'Lawrencium' : '(266)', 'Rutherfordium' : '(267)', 'Dubnium' : '(268)', 'Seaborgium' : '(269)', 'Bohrium' : '(270)', 'Hassium' : '(277)', 
+                  'Meitnerium' : '(278)', 'Darmstadtium' : '(281)','Roertgenium' : '(282)', 'Copemicium' : '(285)', 'Nihonium' : '(286)', 'Flerovium' : '(289)', 'Moscovium' : '(290)', 'Livermorium' : '(293)', 
+                  'Tennessine' : '(294)', 'Oganesson' : '(294)'}
 
 element_Group = {'Hydrogen' :1, 'Helium' : 18, 'Lithium' : 1, 'Beryllium' : 2, 'Boron' : 13, 'Carbon' : 14, 'Nitrogen' : 15, 'Oxygen' : 16, 'Fluorine' : 17, 'Neon' : 18,
                   'Sodium' : 1, 'Magnesium' : 2, 'Aluminium' : 13, 'Silicon': 14, 'Phosphorus' : 15, 'Sulfur' : 16, 'Chlorine' : 17, 'Argon' : 18, 'Potassium' : 1, 
@@ -85,6 +87,29 @@ element_Atomic_Number = dict(zip(elements,range(len(elements))))
 for key in element_Atomic_Number:
     element_Atomic_Number[key] += 1
 
+element_Type = {'Hydrogen': 'Reactive Non-Metal','Helium' : 'Noble Gas', 'Lithium' : 'Alkali Metal', 'Beryllium' : 'Alkaline Earth Metal', 'Boron' : 'Metalloid', 'Carbon' : 'Reactive Non-Metal',
+                  'Nitrogen' : 'Reactive Non-Metal', 'Oxygen' : 'Reactive Non-Metal', 'Fluorine' : 'Reactive Non-Metal', 'Neon' : 'Noble Gas', 'Sodium' : 'Alkali Metal', 
+                  'Magnesium' : 'Alkaline Earth Metal', 'Aluminium' : 'Post-Transition Metal', 'Silicon' : 'Metalloid', 'Phosphorus' : 'Reactive Non-Metal', 'Sulfur' : 'Reactive Non-Metal', 
+                  'Chlorine' : 'Reactive Non-Metal', 'Argon' : 'Noble Gas', 'Potassium' : 'Alkali Metal', 'Calcium' : 'Alkaline Earth Metal', 'Scandium' : 'Transition Metal', 
+                  'Titanium' : 'Transition Metal', 'Vanadium' : 'Transition Metal', 'Chromium' : 'Transition Metal', 'Manganese' : 'Transition Metal', 'Iron' : 'Transition Metal',
+                  'Cobalt' : 'Transition Metal', 'Nickel' : 'Transistion Metal', 'Copper' : 'Transition Metal', 'Zinc' : 'Transition Metal', 'Gallium' : 'Post-Transition Metal', 
+                  'Germanium' : 'Metalloid', 'Arsenic' : 'Metalloid', 'Selnium' : 'Reactive Non-Metal', 'Bromine' : 'Reactive Non-Metal', 'Krypton' : 'Noble Gas', 'Rubidium' : 'Alkali Metal',
+                  'Strontium' : 'Alkaline Earth Metal', 'Yttrium' : 'Transition Metal', 'Zirconium' : 'Transition Metal', 'Niobium' : 'Transition Metal', 'Molybdenum' : 'Transition Metal',
+                  'Technetium' : 'Transition Metal', 'Ruthenium' : 'Transition Metal', 'Rhodium' : 'Transition Metal', 'Palladium' : 'Transition Metal', 'Silver' : 'Transition Metal',
+                  'Cadmium' : 'Transition Metal', 'Indium' : 'Post-Transition Metal', 'Tin' : 'Post-Transition Metal', 'Antimony' : 'Metalloid', 'Tellurium' : 'Metalloid', 
+                  'Iodine' : 'Reactive Non-Metal', 'Xenon' : 'Noble Gas', 'Caesium' : 'Alkali Metal', 'Barium' : 'Alkaline Earth Metal', 'Lanthanum' : 'Lanthanoid', 'Cerium' : 'Lanthanoid', 
+                  'Praseodymium' : 'Lanthanoid', 'Neodymium' : 'Lanthanoid', 'Promethium' : 'Lanthanoid', 'Samarium' : 'Lanthanoid', 'Europium' : 'Lanthanoid', 'Gadolinium' : 'Lanthanoid', 
+                  'Terbium' : 'Lanthanoid', 'Dysprosium' : 'Lanthanoid', 'Holmium' : 'Lanthanoid', 'Erbium' : 'Lanthanoid', 'Thulium' : 'Lanthanoid', 'Ytterbium' : 'Lanthanoid', 
+                  'Lutetium' : 'Lanthanoid', 'Hafnium' : 'Transition Metal', 'Tantalum' : 'Transition Metal', 'Tungsten' : 'Transition Metal', 'Rhenium' : 'Transition Metal', 
+                  'Osmium' : 'Transition Metal', 'Iridium' : 'Transition Metal', 'Platinum' : 'Transition Metal', 'Gold' : 'Transition Metal', 'Mercury' : 'Transition Metal', 
+                  'Thallium' : 'Post-Transition Metal', 'Lead' : 'Post-Transition Metal', 'Bismuth' : 'Post-Transition Metal', 'Polonium' : 'Post-Transition Metal', 'Astatine' : 'Metalloid',
+                  'Radon' : 'Noble Gas', 'Francium' : 'Alkali Metal', 'Radium' : 'Alkaline Earth Metal', 'Actinium' : 'Actinoid', 'Thorium' : 'Actinoid', 'Protactinium' : 'Actinoid', 
+                  'Uranium' : 'Actinoid', 'Neptunium' : 'Actinoid', 'Plutonium' : 'Actinoid', 'Americium' : 'Actinoids', 'Curium' : 'Actinoids', 'Berkelium' : 'Actinoid', 
+                  'Califomium' : 'Actinoid', 'Einsteinium' : 'Actinoid', 'Fermium' : 'Actinoid', 'Mendelevium' : 'Actinoid', 'Nobelium' : 'Actinoid', 'Lawrencium' : 'Actinoid', 
+                  'Rutherfordium' : 'Transition Metal', 'Dubnium' : 'Transition Metal', 'Seaborgium' : 'Transition Metal', 'Bohrium' : 'Transition Metal', 'Hassium' : 'Transition Metal',
+                  'Meitnerium' : 'Unknown', 'Darmstadtium' : 'Unknown', 'Roertgenium' : 'Unknown', 'Copemicium' : 'Unknown', 'Nihonium' : 'Unknown', 'Flerovium' : 'Unknown', 
+                  'Moscovium' : 'Unknown', 'Livermorium' : 'Unknown', 'Tennessine': 'Unknown','Oganesson' : 'Unknown'}
+
 #main method
 
 def main():
@@ -113,6 +138,10 @@ def get_Chemical_Properties():
     for key, value in element_Atomic_Number.items():
         if selection == key:
             text_AN.set(value)
+    
+    for key, value in element_Type.items():
+        if selection == key:
+            text_type.set(value)
 
 #method to show a graph comparing all 118 elements by their radiation levels
 
@@ -171,6 +200,7 @@ def clear():
     text_group.set("")
     text_weight.set("")
     text_symbol.set("")
+    text_type.set("")
 
 #GUI code
 
@@ -188,6 +218,7 @@ text_weight = StringVar()
 text_group = StringVar()
 text_period = StringVar()
 text_AN = StringVar()
+text_type = StringVar()
 
 #drop-down
 
@@ -219,6 +250,8 @@ l4 = Label(window, text = "Element Period: ",bg='aqua')
 l4_cv = cv.create_window(75,190,anchor='nw',window=l4)
 l5 = Label(window, text = "Element Atomic Number: ",bg='aqua')
 l5_cv = cv.create_window(75,220,anchor='nw',window=l5)
+l6 = Label(window, text = "Element Type: ",bg='aqua')
+l6_cv = cv.create_window(75,250,anchor='nw',window=l6)
 
 #Entries
 
@@ -232,6 +265,8 @@ e4 = Entry(window,textvariable = text_period, state = 'readonly',bg='aqua')
 e4_cv = cv.create_window(250,190,anchor='nw',window=e4)
 e5 = Entry(window,textvariable = text_AN, state = 'readonly',bg='aqua')
 e5_cv = cv.create_window(250,220,anchor='nw',window=e5)
+e6 = Entry(window,textvariable = text_type, state = 'readonly',bg='aqua')
+e6_cv = cv.create_window(250,250,anchor='nw',window=e6)
 
 #main
 
