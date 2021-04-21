@@ -83,7 +83,7 @@ element_Period = {'Hydrogen' :'H', 'Helium' : 'He', 'Lithium' : 'Li', 'Beryllium
                   'Lawrencium' : 'Lr', 'Rutherfordium' : 'Rf', 'Dubnium' : 'Db', 'Seaborgium' : 'Sg', 'Bohrium' : 'Bh', 'Hassium': 'Hs', 'Meitnerium' : 'Mt', 'Darmstadtium' : 'Ds',
                   'Roertgenium' : 'Rg', 'Copemicium' : 'Cn', 'Nihonium' : 'Nh', 'Flerovium' : 'Fl', 'Moscovium' : 'Mc', 'Livermorium' : 'Lv', 'Tennessine' : 'Ts', 'Oganesson' : 'Og'}
 
-element_Atomic_Number = {'Hydrogen' :'H', 'Helium' : 'He', 'Lithium' : 'Li', 'Beryllium' : 'Be', 'Boron' : 'B', 'Carbon' : 'C', 'Nitrogen' : 'N', 'Oxygen' : 'O', 'Fluorine' : 'F', 'Neon' : 'Ne',
+element_Atomic_Number = {'Hydrogen' :1, 'Helium' : 2, 'Lithium' : 'Li', 'Beryllium' : 'Be', 'Boron' : 'B', 'Carbon' : 'C', 'Nitrogen' : 'N', 'Oxygen' : 'O', 'Fluorine' : 'F', 'Neon' : 'Ne',
                   'Sodium' : 'Na', 'Magnesium' : 'Mg', 'Aluminium' : 'Al', 'Silicon': 'Si', 'Phosphorus' : 'P', 'Sulfur' : 'S', 'Chlorine' : 'Cl', 'Argon' : 'Ar', 'Potassium' : 'K', 
                   'Calcium' : 'Ca', 'Scandium' : 'Sc', 'Titanium' : 'Ti', 'Vanadium' : 'V', 'Chromium' : 'Cr', 'Manganese' : 'Mn', 'Iron' : 'Fe', 'Cobalt' : 'Co', 'Nickel' : 'Ni', 
                   'Copper' : 'Cu', 'Zinc' : 'Zn', 'Gallium' : 'Ga', 'Germanium' : 'Ge', 'Arsenic' : 'As', 'Selnium' : 'Se', 'Bromine' : 'Br', 'Krypton' : 'Kr', 'Rubidium' : 'Rb',
@@ -104,32 +104,24 @@ def main():
 
 #get properties method
 
-def get_Chemical_Symbol():
+def get_Chemical_Properties():
     selection = variable.get()
     for key, value in element_Symbol.items():
         if selection == key:
             text_symbol.set(value)
 
-def get_Chemical_Weight():
-    selection = variable.get()
     for key, value in element_Weight.items():
         if selection == key:
             text_weight.set(value)
 
-def get_Chemical_Group():
-    selection = variable.get()
     for key, value in element_Group.items():
         if selection == key:
             text_group.set(value)
 
-def get_Chemical_Period():
-    selection = variable.get()
     for key, value in element_Period.items():
         if selection == key:
             text_period.set(value)
 
-def get_Chemical_Atomic_Number():
-    selection = variable.get()
     for key, value in element_Atomic_Number.items():
         if selection == key:
             text_AN.set(value)
@@ -142,34 +134,22 @@ def get_Radiation_Comparison():
 #GUI code
 
 window = Tk()
+window.geometry('650x400')
 window.title('Chemistry App')
-
 variable = StringVar(window)
 variable.set(elements[0]) # default value
 
 om1 = OptionMenu(window, variable, *elements)
 om1.grid(row=0, column = 2)
 
-b1 = Button(window, text="Get Chemical Element Symbol", command=get_Chemical_Symbol)
+b1 = Button(window, text="Get Chemical Element Properties", command=get_Chemical_Properties)
 b1.grid(row = 2, column = 2)
 
-b2 = Button(window, text = "Get Chemical Element Weight", command = get_Chemical_Weight)
+b2 = Button(window, text = "Show Radioactivity Graph", command = get_Radiation_Comparison)
 b2.grid(row=3,column=2)
 
-b3 = Button(window, text = "Get Chemical Element Group", command = get_Chemical_Group)
+b3 = Button(window, text = "Quit", command = window.destroy)
 b3.grid(row=4,column=2)
-
-b4 = Button(window, text = "Get Chemical Element Period", command = get_Chemical_Period)
-b4.grid(row=5,column=2)
-
-b5 = Button(window, text = "Get Chemical Element Atomic Number", command = get_Chemical_Atomic_Number)
-b5.grid(row=6,column=2)
-
-b5 = Button(window, text = "Show Radioactivity Graph", command = get_Radiation_Comparison)
-b5.grid(row=7,column=2)
-
-b6 = Button(window, text = "Quit", command = window.destroy)
-b6.grid(row=8,column=2)
 
 
 l1 = Label(window, text = "Select an element from the menu and then choose an option!")
