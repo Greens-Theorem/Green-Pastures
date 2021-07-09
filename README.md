@@ -15,6 +15,7 @@ isPalinDromeGUI,
 isPrimeGUI,
 
 Intermediate Programs:
+
 RedditBot,
 script.js,
 style.css,
