@@ -1,4 +1,4 @@
-#Author C.M.H. | July 2021 | Reddit Bot
+#July 2021 | Reddit Bot
 import praw
 import re
 import pathlib
