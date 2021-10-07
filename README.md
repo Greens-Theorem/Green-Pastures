@@ -23,8 +23,11 @@ index.html,
 Tic-Tac-Toe Java,
 Train_Database Java,
 
+
 Beginner Programs:
 
 DataStorageTutorial,
 MaxandMinJava,
-MaxAndMinPython
+MaxAndMinPython,
+Arrays,
+Palindrome,
