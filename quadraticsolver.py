@@ -1,18 +1,14 @@
 #author C.M.H. quadratic calculator January 2022
+#GUI program to solve quadratic equations
 from math import sqrt
-from operator import neg
 from tkinter import *
-
-window = Tk()
-window.title("Quadratic Equation Solver")
-
+#Logic
 def solver():
 
     equationx = equation.get()
     a = int(equationx[0])
     b = int(equationx[5])
     c = int(equationx[8])
-    print(a,b,c)
   
     if(a==0):
         solution.set('DIV / 0 ERR')
@@ -20,6 +16,9 @@ def solver():
     else:
         solution.set((-b + sqrt((b**2) - (4 * a * c))) / (2*a))
         solution2.set((-b - sqrt((b**2) - (4 * a * c))) / (2*a))
+#GUI
+window = Tk()
+window.title("Quadratic Equation Solver")
 
 l1 = Label(window, text="Equation:")
 l1.grid(row=0, column=0)
