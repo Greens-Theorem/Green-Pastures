@@ -6,10 +6,14 @@ from tkinter import *
 def solver():
 
     equationx = equation.get()
-    a = int(equationx[0])
-    b = int(equationx[5])
-    c = int(equationx[8])
-  
+    if(len(equationx) > 11 or len(equationx) < 11):
+        solution.set('Improper format')
+        solution2.set('Example: 5x^2+6x+1=0')
+    else:
+        a = int(equationx[0])
+        b = int(equationx[5])
+        c = int(equationx[8])
+
     if(a==0):
         solution.set('DIV / 0 ERR')
         solution2.set('DIV / 0 ERR')
